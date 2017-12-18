@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Small Teacher</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Favicon -->
+    <link href="{{url_for('static',filename='index_static/img/favicon.ico')}}" rel="icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+    
+    <!-- Bootstrap CSS File -->
+    <link href="{{url_for('static',filename='index_static/lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  
+    <!-- Libraries CSS Files -->
+    <link href="{{url_for('static',filename='index_static/lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    
+    <!-- Main Stylesheet File -->
+    <link href="{{url_for('static',filename='index_static/css/style.css')}}" rel="stylesheet">
+    
+    <!-- =======================================================
+      web Name: Steacher
+      Author: lsh
+    ======================================================= -->
+  </head>
+
+  <body>
+    <!-- Page Content
+    ================================================== -->
+    <!-- Hero -->
+    <header id="header">
+        
+        <div class="container">
+          <div id="logo" class="pull-left">
+            <a href="#"><img src="{{url_for('static',filename='index_static/img/logo.png')}}" alt="" title=""></a>
+            <!-- Uncomment below if you prefer to use a text image -->
+            <!--<h1><a href="#hero">Bell</a></h1>-->
+          </div>
+        
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="#">首页</a></li>
+              <li><a href="#">最新消息</a></li>
+              <li class="menu-has-children"><a href="#">线上预约</a>
+                <ul>
+                    <li><a href="#">预约小老师</a></li>
+                    <li><a href="#">取消预约</a></li>
+                </ul>
+              </li>  
+              <li><a href="#">小老师</a></li>
+              <li class="menu-has-children"><a href="">学习资源</a>
+                <ul>
+                  <li class="menu-has-children"><a href="#">微课程</a>
+                     <ul>
+                      <li><a href="#">高等数学</a></li>
+                      <li><a href="#">线性代数</a></li>
+                      <li><a href="#">大学物理</a></li>
+                      <li><a href="#">大学英语</a></li>
+                      <li><a href="#">C语言</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">课堂笔记</a>
+                    <ul>
+                      <li><a href="#">高等数学</a></li>
+                      <li><a href="#">线性代数</a></li>
+                      <li><a href="#">大学物理</a></li>
+                      <li><a href="#">大学英语</a></li>
+                      <li><a href="#">C语言</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">热问题</a></li>
+                  <li><a href="#">热评论</a></li>
+                </ul>
+              </li>
+              <li><a href="#">我们</a></li>
+            </ul>
+          </nav><!-- #nav-menu-container -->
+      
+          <nav class="nav social-nav pull-right hidden-sm-down">
+            <a href="#">登录</a> <a href="#">注册</a>
+          </nav>
+        </div>
+      </header>
+      <!-- #header -->
+
+    <section class="hero">
+      <div class="container text-center">
+        <div class="col-md-12">
+          <h1>
+            校聘荣誉小老师
+          </h1>
+
+          <p class="tagline">
+            与荣誉小老师一起面对课业问题，提升学习成效</br>
+            Tackle your problem with tutors and improve your learning results!
+          </p>
+          <a class="btn btn-full" href="#about">如何使用小老师？</a>
+        </div>
+      </div> 
+    </section>
+    <!-- /Hero -->  
+    
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container text-center">
+        <h2>
+         关于荣誉小老师
+        </h2>
+        <p>
+          校聘荣誉小老师项目，是为提升学生的学习成效，协助解决学生学习的疑难问题，由学校组织，甄选聘任优秀学生作为课程辅导小老师提供定时定点课程辅导的咨询服务。以“知识共享”为发展方向，更好的推动学校学科建设。
+        </p>
+        <div class="row stats-row">
+          <div class="stats-col text-center col-md-3 col-sm-6">
+            <div class="circle">
+              <span class="stats-no" data-toggle="counter-up">232</span> 小老师统计
+            </div>
+          </div>
+
+          <div class="stats-col text-center col-md-3 col-sm-6">
+            <div class="circle">
+              <span class="stats-no" data-toggle="counter-up">79</span> 学习资源统计
+            </div>
+          </div>
+
+          <div class="stats-col text-center col-md-3 col-sm-6">
+            <div class="circle">
+              <span class="stats-no" data-toggle="counter-up">1,463</span> 热门问题统计
+            </div>
+          </div>
+
+          <div class="stats-col text-center col-md-3 col-sm-6">
+            <div class="circle">
+              <span class="stats-no" data-toggle="counter-up">15</span> 在线人数统计
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About -->
+    <!-- Parallax -->
+
+    <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="{{url_for('static',filename='index_static/img/parallax-bg.jpg')}}" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+      <h2>
+        欢迎来到小老师社区
+      </h2>
+
+      <p>
+        我们的项目完全是开放的，欢迎每一位同学参加！响应式布局，有效适配手机、平板、PC等设备。
+      </p>
+      <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="{{url_for('static',filename='index_static/img/gadgets.png')}}">
+    </div>
+    <!-- /Parallax -->
+    <!-- Features -->
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="text-center">
+          我们的服务
+        </h2>
+
+        <div class="row">
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-users"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                    <a href="#">预约咨询</a>
+                </h3>
+                <p>
+                  这里您可以根据您的疑问，查找相关小老师进行预约咨询，以便解决学习中疑惑。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-graduation-cap"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                    <a href="#">小老师</a>
+                </h3>
+                <p>
+                  这里有我们有优秀的小老师，您可以了解我们每一个小老师的情况及辅导特长。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-cloud"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                    <a href="#">学习资源</a>
+                </h3>
+                <p>
+                  在这里您可以找到我们老师的课堂资源以及同学们的私有资源，提升学习成效。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-trophy"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                    <a href="#">荣誉榜</a>
+                </h3>
+
+                <p>
+                  这里有我们年度评选的优秀荣誉小老师，很好的展现了他们为社区所作的贡献。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-quora"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                  <a href="#">热门问题</a>
+                </h3>
+
+                <p>
+                  我们对各科目热度问题进行了分类汇总，这里有提问最多、讨论最广泛的问题。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-col col-lg-4 col-xs-12">
+            <div class="card card-block text-center">
+              <div>
+                <div class="feature-icon">
+                  <span class="fa fa-file-pdf-o"></span>
+                </div>
+              </div>
+
+              <div>
+                <h3>
+                  <a href="#">文件下载</a>
+                </h3>
+
+                <p>
+                  在这里您可以找到我们社区相关的文档，包括纲要、文档及所需表单。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Features -->
+    
+    <!-- Call to Action -->
+    <section class="cta">
+    	
+      <div class="container">
+        <div class="row">
+        	
+          <div class="col-lg-9 col-sm-12 text-lg-left text-center">
+            <h2>
+              贡献排行榜
+            </h2>
+            <p>
+              这里有我们年度评选的优秀荣誉小老师，记录了他们为社区所作的贡献。我们每年进行一次评选，将对突出贡献者予以表彰。
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-sm-12 text-lg-right text-center">
+            <a class="btn btn-ghost" id="paihangbang-btn" href="#">查看荣誉榜</a>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="container" id="paihangbang" style="display: none;">
+      	<table class="table table-striped">				  
+				  <thead>
+				    <tr>
+				      <th>排名</th>
+				      <th>名字</th>
+				      <th>擅长</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td>1</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				    <tr>
+				      <td>2</td>
+				      <td>Mumbai</td>
+				      <td>400003</td>
+				    </tr>
+				    <tr>
+				      <td>3</td>
+				      <td>Pune</td>
+				      <td>411027</td>
+				    </tr>
+				  </tbody>
+				</table>
+      </div>
+      
+      <div id="paihangbang-none">
+      	
+      </div>
+    </section>
+    
+    <!-- /Call to Action -->
+    
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container text-center">
+        <h2>学习资源</h2>
+		      <div class="btn-group">
+				    <button type="button" class="btn btn-default" id="quanbu-btn">全部</button>
+				    <button type="button" class="btn btn-default" id="weikecheng-btn">微课程</button>
+				    <button type="button" class="btn btn-default" id="ketangbiji-btn">课堂笔记</button>
+				    <button type="button" class="btn btn-default" id="remenwenti-btn">热门问题</button>
+				    <button type="button" class="btn btn-default" id="shiticeshi-btn">试题测试</button>
+				    <button type="button" class="btn btn-default" id="shiticeshi-btn">更多...</button>
+		 			</div>          
+			</div><!--/#portfolio-filter-->
+			<!--全部板块-->
+			<div id="quanbu">
+					<div class="portfolio-grid">
+				        <div class="row">
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-1.jpg')}}">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title"> 大学英语</h3>
+					                  <p class="card-text">简介 </p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-2.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">线性代数</h3>
+					                <p class="card-text">简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-3.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">数学逻辑</h3>
+					                <p class="card-text">简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-4.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">高等数学 </h3>
+					                <p class="card-text">详细介绍了微积分中求极限的问题。</p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				        </div>
+				
+				        <div class="row">
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-5.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">概率与统计</h3>
+					                <p class="card-text">简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-6.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">大学物理</h3>
+					                <p class="card-text">简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-7.jpg')}}">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">Python</h3>
+					                <p class="card-text">简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img alt="" src="{{url_for('static',filename='index_static/img/porf-8.jpg')}}">
+						              <div class="portfolio-over">
+						                <div>
+						                  <h3 class="card-title">C语言</h3>
+					                  	<p class="card-text">简介 </p>
+						                </div>
+						              </div>
+				              	</a>
+				            </div>
+				          </div>
+				        </div>
+				        
+				      </div>				    
+			</div>
+			
+			<!--微课程板块-->
+			<div id="weikecheng" style="display: none;">
+				
+				<div class="portfolio-grid">
+				        <div class="row">
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+				              	<video width="320" height="240" controls="controls">
+				              		<source src="" type="video/mp4" />
+												</video>
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title"> 视频类别</h3>
+					                  <p class="card-text">视频简介 </p>
+					                </div>
+					              </div>
+				             	</a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+				              	<video width="320" height="240" controls="controls">
+				              		<source src="" type="video/mp4" />
+												</video>
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title"> 视频类别</h3>
+					                  <p class="card-text">视频简介 </p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+				              	<video width="320" height="240" controls="controls">
+				              		<source src="" type="video/mp4" />
+												</video>
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title"> 视频类别</h3>
+					                  <p class="card-text">视频简介 </p>
+					                </div>
+					              </div>
+				              </a>
+					          </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+				              	<video width="320" height="240" controls="controls">
+				              		<source src="" type="video/mp4" />
+												</video>
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title"> 视频类别</h3>
+					                  <p class="card-text">视频简介 </p>		       
+					                </div>
+					              </div>
+				              </a>
+					          </div>
+				          </div>
+				        </div>
+				        
+				</div>
+			</div>
+			<!--课堂笔记板块-->
+			<div id="ketangbiji" style="display: none;">
+					<div class="portfolio-grid">
+				        <div class="row">
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img src="{{url_for('static',filename='index_static/images/about-us/about.jpg')}}" "img-rounded"">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title">优秀笔记</h3>
+					                  <p class="card-text">优秀笔记简介 </p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img src="{{url_for('static',filename='index_static/images/about-us/community.jpg')}}" "img-rounded"">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">优秀笔记</h3>
+					                <p class="card-text">优秀笔记简介</p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img src="{{url_for('static',filename='index_static/images/about-us/about.jpg')}}" "img-rounded">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">优秀笔记</h3>
+					                <p class="card-text">优秀笔记简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img src="{{url_for('static',filename='index_static/images/about-us/community.jpg')}}" class="img-rounded">
+				              <div class="portfolio-over">
+				                <div>
+				                  <h3 class="card-title">优秀笔记</h3>
+					                <p class="card-text">优秀笔记简介 </p>
+				                </div>
+				              </div></a>
+				            </div>
+				          </div>
+				        </div>
+				
+				      </div>			
+			</div>
+			<!--热门问题板块-->
+			<div id="remenwenti" style="display: none;">
+				<table class="table table-bordered">
+					  <caption><a href="">了解更多</a></caption>
+					  <thead>
+					    <tr>
+					      <th>热门问题</th>
+					      <th>最佳答案</th>
+					      
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td><a href="">C是什么？</a></td>
+					      <td><a href="">常数</a></td>
+					      
+					    </tr>
+					    <tr>
+					      <td><a href="">f是什么？</a></td>
+					      <td><a href="">函数</a></td>
+					    </tr>
+					   	<tr>
+					      <td><a href="">单位矩阵是什么？</a></td>
+					      <td><a href="">图片..</a></td>
+					    </tr>
+					  </tbody>
+				</table>
+			</div>
+			<!--试题测试板块-->
+			<div id="shiticeshi" style="display: none;">
+				<div class="portfolio-grid">
+				        <div class="row">
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#"><img src="{{url_for('static',filename='index_static/img/exam.jpg')}}" class="img-rounded"">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title">试卷</h3>
+					                  <p class="card-text">试卷简介</p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+					              <img src="{{url_for('static',filename='index_static/img/exam.jpg')}}" class="img-rounded"">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title">试卷</h3>
+						                <p class="card-text">试卷简介 </p>
+					                </div>
+					              </div>
+					              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+					              <img src="{{url_for('static',filename='index_static/img/exam.jpg')}}" class="img-rounded">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title">试卷</h3>
+						                <p class="card-text">试卷简介 </p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				
+				          <div class="col-lg-3 col-sm-6 col-xs-12">
+				            <div class="card card-block">
+				              <a href="#">
+					              <img src="{{url_for('static',filename='index_static/img/exam.jpg')}}" class="img-rounded">
+					              <div class="portfolio-over">
+					                <div>
+					                  <h3 class="card-title">试卷</h3>
+						                <p class="card-text">试卷简介 </p>
+					                </div>
+					              </div>
+				              </a>
+				            </div>
+				          </div>
+				</div>
+			</div>
+    </section>
+    <!-- /Portfolio -->
+    
+    <!-- Team -->
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="text-center">
+          小老师
+        </h2>
+
+        <div class="row">
+          <div class="col-sm-3 col-xs-6">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="{{url_for('static',filename='index_static/img/team-1.jpg')}}">
+              <div class="card-title-wrap">
+                <span class="card-title">张立飞</span> <span class="card-text">计算机科学与技术</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  联系他/她
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-phone"></i></a> 
+                  <a href="#"><i class="fa fa-envelope"></i></a> 
+                  <a href="#"><i class="fa fa-weixin"></i></a> 
+                  <a href="#"><i class="fa fa-qq"></i></a>
+                </nav>
+
+                <p>
+                  C、Python、Django、Flask、Mongodb
+                </p>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="{{url_for('static',filename='index_static/img/team-2.jpg')}}">
+              <div class="card-title-wrap">
+                <span class="card-title">关晓彤</span> <span class="card-text">艺术系</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  联系他/她
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-phone"></i></a> 
+                  <a href="#"><i class="fa fa-envelope"></i></a> 
+                  <a href="#"><i class="fa fa-weixin"></i></a> 
+                  <a href="#"><i class="fa fa-qq"></i></a>
+                </nav>
+
+                <p>
+                  素描、油画、动画制作
+                </p>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="{{url_for('static',filename='index_static/img/team-3.jpg')}}">
+              <div class="card-title-wrap">
+                <span class="card-title">鹿晗</span> <span class="card-text">机械工程系</span>
+              </div>
+
+             <div class="team-over">
+                <h4 class="hidden-md-down">
+                  联系他/她
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-phone"></i></a> 
+                  <a href="#"><i class="fa fa-envelope"></i></a> 
+                  <a href="#"><i class="fa fa-weixin"></i></a> 
+                  <a href="#"><i class="fa fa-qq"></i></a>
+                </nav>
+
+                <p>
+                  无人机、机器人、工程制图
+                </p>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+            <div class="card card-block">
+              <a href="#"><img alt="" class="team-img" src="{{url_for('static',filename='index_static/img/team-4.jpg')}}">
+              <div class="card-title-wrap">
+                <span class="card-title">文乐</span> <span class="card-text">信息工程系</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  联系他/她
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-phone"></i></a> 
+                  <a href="#"><i class="fa fa-envelope"></i></a> 
+                  <a href="#"><i class="fa fa-weixin"></i></a> 
+                  <a href="#"><i class="fa fa-qq"></i></a>
+                </nav>
+
+                <p>
+                  高等数学、线性代数
+                </p>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Team -->
+    <!-- @component: footer -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section-title">联系我们</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-3 offset-lg-2">
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>天津大学仁爱学院<br>图书馆</p>
+              </div>
+              
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>xiaolaoshi2017@163.com</p>
+              </div>
+              
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-5">
+            <div class="form">
+              <div id="sendmessage">您的建议已发送，谢谢!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="姓名" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="标题" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="请填写您的建议！" placeholder="请填写您的建议！"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <div class="text-center"><button type="submit">发送消息</button></div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+      
+    <footer class="site-footer">
+      <div class="bottom">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+              <p class="copyright-text">
+                © 天津大学仁爱学院
+              </p>
+              <div class="credits">
+                  <!-- 
+                  All the links in the footer should remain intact. 
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+                -->
+                <a href="https://steacher.com/">荣誉小老师</a> 项目组
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="index.html">首页</a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#about">关于小老师</a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#features">我们服务</a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#portfolio">学习资源</a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#team">小老师</a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#contact">联系我们</a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> <!-- JavaScript
+
+
+    <!-- Required JavaScript Libraries -->
+    <script src="{{url_for('static',filename='index_static/lib/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/superfish/hoverIntent.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/superfish/superfish.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/tether/js/tether.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/stellar/stellar.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/counterup/counterup.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/easing/easing.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/stickyjs/sticky.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/parallax/parallax.js')}}"></script>
+    <script src="{{url_for('static',filename='index_static/lib/lockfixed/lockfixed.min.js')}}"></script>
+    
+    
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="{{url_for('static',filename='index_static/js/custom.js')}}"></script>
+    
+    <script src="{{url_for('static',filename='index_static/contactform/contactform.jss')}}"></script>
+    
+    <script src="{{url_for('static',filename='index_static/js/jquery.carouFredSel-6.0.4-packed.js')}}" type="text/javascript"></script>
+    
+   	<script src="{{url_for('static',filename='index_static/js/jquery-1.8.2.min.js')}}" type="text/javascript" charset="utf-8"></script>
+    <!--排行榜脚本-->    
+    <script type="text/javascript">
+    	$(function(){
+    		$("#paihangbang-btn").hover(function(){
+    			$("#paihangbang").css("display","block")
+    		})
+    		$("#paihangbang-btn").mouseleave(function(){
+    			$("#paihangbang").css("display","none")
+    		})
+    	})
+    </script>
+  	<!--学习资源板块脚本-->  
+  	<script>
+  		$(function(){
+  			$("#quanbu-btn").mouseup(function(){
+  				$("#quanbu").css("display","block")
+ 					$("#weikecheng").css("display","none")
+ 					$("#ketangbiji").css("display","none")
+ 					$("#remenwenti").css("display","none")
+ 					$("#shiticeshi").css("display","none")
+  			})
+  			$("#weikecheng-btn").mouseup(function(){
+  				$("#weikecheng").css("display","block")
+ 					$("#quanbu").css("display","none")
+ 					$("#ketangbiji").css("display","none")
+ 					$("#remenwenti").css("display","none")
+ 					$("#shiticeshi").css("display","none")
+  			})
+  			$("#ketangbiji-btn").mouseup(function(){
+  				$("#ketangbiji").css("display","block")
+ 					$("#quanbu").css("display","none")
+ 					$("#weikecheng").css("display","none")
+ 					$("#remenwenti").css("display","none")
+ 					$("#shiticeshi").css("display","none")
+  			})
+  			$("#remenwenti-btn").mouseup(function(){
+  				$("#remenwenti").css("display","block")
+ 					$("#quanbu").css("display","none")
+ 					$("#ketangbiji").css("display","none")
+ 					$("#weikecheng").css("display","none")
+ 					$("#shiticeshi").css("display","none")
+  			})
+  			$("#shiticeshi-btn").mouseup(function(){
+  				$("#shiticeshi").css("display","block")
+ 					$("#quanbu").css("display","none")
+ 					$("#ketangbiji").css("display","none")
+ 					$("#remenwenti").css("display","none")
+ 					$("#weikecheng").css("display","none")
+  			})
+  		})
+  	</script>
+  </body>
+</html>
